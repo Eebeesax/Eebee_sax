@@ -1,83 +1,51 @@
-
-
-</html>
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Saxophonists Community</title>
-    <link rel="stylesheet" href="styles.css">
-    <script src="script.js" defer></script>
+    <title>Document</title>
+    <link rel="stylesheet" href="styles2.css">
+    <script src="app.js" defer></script>
 </head>
-
 <body>
-    <header>
-        <div class="logo">Saxophone Hub</div>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#forum">Forum</a></li>
-                <li><a href="#videos">Videos</a></li>
-                <li><a href="#packages">Packages</a></li>
-                <li><a href="beginner.html">Beginner Course</a></li>
-                <li><a href="advanced.html">Advanced Course</a></li>
+    <nav class="navbar">
+        <div class="navbar__container">
+            <h3><a href="/" id="navbar__logo"> <i class="fa-solid fa-book-open-reader"></i>CHECKPOINT</a></h3>
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span><span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar__menu">
+                <li class="navbar__items">
+                    <a href="/" class="navbar__links">About Us</a>
+                    <li>
+                        <li class="navbar__item">
+                            <a href="books.html" class="navbar__links">Books, Materials</a>
+                            </li>
+                            <li class="navbar__item">
+                                <a href="passquestions.html" class="navbar__links">Pass Questions and Answers</a>
+                            </li>
+                            <li class="button">Getting Started</li>
+                        </li>
+                    </li>
+                </li>
             </ul>
-        </nav>
-    </header>
+        </div>
+    </nav>
+    <div class="main">
+        <div class="main__container">
+            <div class="main__content">
 
-    <section id="home" class="intro">
-        <div class="intro-text">
-            <h1>Welcome to Saxophone Hub</h1>
-            <p>A place for saxophonists to connect, share, and learn!</p>
-        </div>
-        <div class="intro-image">
-            <img src="saxophone_image.jpg" alt="Saxophone">
-        </div>
-    </section>
+                <h2>BRACE FOR ACADEMIC EXCELLENCE</h2>
+                <button class="main__btn"><a href="/">get Started</a> </button>
 
-    <section id="forum" class="forum">
-        <h2>Ask Questions & Share Your Knowledge</h2>
-        <div class="question-form">
-            <textarea id="questionInput" placeholder="Ask a question or share your knowledge..."></textarea>
-            <button id="submitQuestion">Post Question</button>
+            </div>
+            <div class="main__img--container">
+                <img src="images/pic.svg" alt="pic" id="main__img">
+            </div>
         </div>
-        <div class="questions-list">
-            <!-- Questions will appear here -->
-        </div>
-    </section>
-
-    <section id="videos" class="video-gallery">
-        <h2>Share Your Saxophone Videos</h2>
-        <div class="video-form">
-            <input type="url" id="videoInput" placeholder="Enter YouTube Video URL">
-            <button id="submitVideo">Post Video</button>
-        </div>
-        <div class="video-list">
-            <!-- Videos will appear here -->
-        </div>
-    </section>
-
-    <section id="packages" class="packages">
-        <h2>Free & Premium Packages</h2>
-        <div class="package free">
-            <h3>Free Package</h3>
-            <p>Access to basic content like forums, videos, and limited tutorials.</p>
-            <button>Join Free</button>
-        </div>
-        <div class="package premium">
-            <h3>Premium Package</h3>
-            <p>Full access to all content including advanced tutorials, personal feedback, and exclusive videos.</p>
-            <button>Join Premium</button>
-        </div>
-    </section>
-
-    <footer>
-        <p>&copy; 2025 Saxophone Hub. All Rights Reserved.</p>
-    </footer>
+    </div>
+     <script src="app.js"></script>
 </body>
-
 </html>
-
+<!--undraw.com to get images-->
